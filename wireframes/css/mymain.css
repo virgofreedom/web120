@@ -1,0 +1,152 @@
+.mymain
+{
+	min-height: 500px;
+	margin-top:  2.8125rem;	
+}
+.row
+{
+	max-width: none;
+}
+.form-control
+{
+	min-width:100%;
+}
+.bordered
+{
+	background-color: #a7461e;
+	padding-top: 10px;
+	padding-left: 30px;
+	border: 5px solid black; 
+}
+.float
+{
+	color: white;
+}
+.tab-bar
+{
+	background:#a7461e;
+}
+.my-offset
+{
+	margin-left: 3.5%;
+}
+.tabs.vertical 
+{
+    max-width: 100%;
+    width: 100%;
+}
+.my-over
+{
+	max-height: 500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.
+{
+	max-width: 100%;
+	overflow-x: auto;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+     
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+     
+}
+.my-width
+{
+	width:3%;
+}
+.header
+{
+	margin: 5px;
+	color: cyan;
+}
+table a
+{
+	color:black;
+}
+.inbox_contain
+{
+	background-color: darkgray;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+.inbox-message
+{
+	background-color: whitesmoke;
+	padding: 10px;
+	color: black;
+}
+.bolded
+{
+	font-weight: bold;
+}
+tr.bolded
+{
+	font-weight: bold;
+}
+.fixed
+{
+	position: fixed;
+}
+.absoluted
+{
+	position: absolute;
+}
+.relatived
+{
+	position: relative;
+}
+.white
+{
+	background-color: white;
+}
+.bg-green {
+    background-color: #92CD18 !important;
+}
+.hcenter
+{
+	padding-top: 5%;
+}
+.over-hide
+{
+	overflow: hidden;
+}
+.flag
+{
+	max-width:3.2em;
+	max-height:3.2em;
+	}
+.myinput
+{
+	width:100%;
+}
+img.myinput
+{
+	width:100%;
+	max-height:20em;
+}
+.read_m
+{
+	cursor:pointer;
+	}
+.title_content
+{
+	cursor:pointer;
+	}

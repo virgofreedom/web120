@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+*  {
+	padding:0;
+
+}
+
+#wrapper  
+{
+clear:both;
+margin:200px auto 50px auto;
+width:940px;
+
+}
+header img
+{
+	width:50px;
+}
+header  {
+	padding: 50px auto;
+	background:green;
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+#logo  {
+/*background:yellow;*/
+float:left;
+
+}
+
+#social  {
+/*background:orange;*/
+float:right;
+
+}
+
+.container
+{
+	clear:both;
+	overflow:hidden;
+	background-image:url("../images/bg_tile.jpg");
+	background-repeat:repeat-y;
+	}
+
+
+
+aside  {
+width:340px;
+float:left;
+}
+
+main  {
+width:580px;
+float:right;
+background:#ccc;
+height:500px;	
+}
+
+nav  {
+	clear:both;
+	overflow:hidden;
+	background:red;	
+}
+nav ul
+{
+	width:980px;
+	margin: 0 auto;
+	line-height:2em;
+}
+nav ul li
+{
+	width:23%;
+	float:left;
+	margin-right:2%;
+	list-style-type:none;	
+}
+nav ul li a
+{
+	display:block;	
+	text-decoration:none;
+
+}
+nav ul li a:hover
+{
+	background:yellow;
+}
+footer  {
+
+background:black;
+clear:both;
+
+margin:0 auto;	
+}
+
+footer > ul
+{
+	width:980px;
+	margin: 0 auto;
+}
+
+footer > ul > li
+{
+	width:23%;
+	float:left;
+	margin-right:2%;
+	background:yellow;	
+}
+
+footer li  {
+	list-style-type:none;
+}
+
+
+

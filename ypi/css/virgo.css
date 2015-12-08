@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+*  {
+	padding:0;
+	margin:0;
+}
+header  
+{
+	background:white;
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
+.social_logo
+{
+	width:50px;
+}
+#logo  {
+/*background:yellow;*/
+float:left;
+padding: 1%;
+width:70%;
+}
+.logo_img
+{
+	max-height:150px;
+}
+#social  {
+/*background:orange;*/
+float:right;
+padding:50px 1%;
+}
+#social > ul > li
+{
+	float:left;
+	list-style-type:none;
+}
+#wrapper  
+{
+	background:#e00025;
+	clear:both;
+	margin:200px auto auto auto;
+	padding-left: 10%;
+	width:90%;
+	clear:both;
+	overflow:hidden;
+}
+.container
+{
+	width:80%;
+	background : rgba(255,255,255, 0.5);
+	padding:3%;
+	overflow:hidden;
+}
+aside  {
+width:30%;
+float:left;
+}
+aside img
+{	
+	width:99%;
+	height:400px;
+	padding:5px;
+}
+.thumnail
+{
+	margin:1%;
+	float:left;
+	color:white;
+	border: 1px solid black;
+	padding:5px;
+	background:red;
+	max-width:300px;
+	text-align:center;
+}
+.thumnail a
+{
+	color:white;
+	text-decoration:none;
+}
+.thumnail img
+{
+	width:99%;	
+	max-height:150px;
+
+}
+main  
+{	
+width:69%;
+padding-left:1%;
+float:left;
+}
+.title
+{
+	clear:both;
+	background:#032ea1;
+	color:white;
+}
+h1
+{	
+	font-size: 2.5em;
+	line-height: 1.5em;	
+}
+h2
+{
+	
+	font-size: 2em;
+	line-height: 1.5em;	
+}
+h3
+{
+	
+	font-size: 1.5em;
+	line-height: 1.5em;	
+}
+p
+{
+	text-indent: 1.5em;
+	text-align:justify;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+nav  {
+	width:100%;
+	clear:both;
+	overflow:hidden;
+	background:#032ea1;	
+}
+nav ul
+{
+	margin: 0 auto;
+	line-height:2.5em;
+}
+nav ul li
+{
+	text-align:center;
+	width: 19.8%;
+	float:left;
+	list-style-type:none;	
+}
+nav ul li a
+{
+	color:white;
+	font-size: 1.5em;
+	display:block;	
+	text-decoration:none;
+
+}
+nav ul li a:hover
+{
+	background:#f65570;
+}
+
+footer  {
+
+background:black;
+clear:both;
+margin:0 auto;	
+}
+.sub-title
+{
+	clear:both;}
+footer
+{
+	color:white;
+	clear:both;
+	text-align:center;
+	font-size:1.5em;
+	width:100%;
+	float:left;
+	margin-right:2%;
+	background:#032ea1;	
+}
+footer a
+{
+	color:white;
+	text-decoration:none;
+}
+

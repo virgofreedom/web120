@@ -1,0 +1,2 @@
+[27-Oct-2015 21:23:36 UTC] PHP Warning:  include(./includes/home.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/ssrschoo/public_html/rattana/web120/dynamic/index.php on line 8
+[27-Oct-2015 21:23:36 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening './includes/home.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/ssrschoo/public_html/rattana/web120/dynamic/index.php on line 8

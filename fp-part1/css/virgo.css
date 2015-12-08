@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+*  {
+	padding:0;
+	margin:0;
+}
+.mynav
+{
+	clear: both;
+}
+#logo
+{
+	background: #e65100;
+ background: -webkit-linear-gradient(#e65100 0%, #1565c0 100%);
+ background: -o-linear-gradient(#e65100 0%, #1565c0 100%);
+ background: linear-gradient(#e65100 0%, #1565c0 100%);
+}
+header
+{
+	padding-bottom: 10px;
+}
+#banner
+{
+	width: 100%;
+}

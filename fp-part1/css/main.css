@@ -1,0 +1,69 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.social-link{
+	text-align: center;
+	padding-top: 30px;
+}
+.top-bar{
+	background: #2980b9 !important;
+}
+.top-bar-section{
+	background: #2980b9 !important;
+}
+.no-padding{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.goto{
+	text-align: center;
+	background-color: #ffe0b2;
+	padding: 10px;
+}
+.big-link{
+	background-color: #81d4fa;
+	color: #555;
+	padding: 10px;
+	margin-bottom: 3px;
+}
+.big-link:hover{
+	background-color: #29b6f6;
+}
+.in-link ul li a{
+	color: #444;
+}
+.in-link ul li a:hover{
+	color: #555;
+	text-decoration: underline;
+}
+.droparrow{
+	font-size: 0.5em;
+}
+.running-text{
+	background-color: #ff6d00;
+	color: white;
+	padding: 10px;
+	border-bottom: 5px solid #e65100;
+}
+.ads-area{
+	background-color: #e1bee7;
+	height: 400px;
+}
+.main-area{
+	margin: 20px 0;
+}
+.content-area{
+	background-color: #fafafa;
+	color: #333;
+	padding: 30px;
+}
+footer{
+	background-color: #333;
+	color: white;
+	overflow: hidden;
+}
+s

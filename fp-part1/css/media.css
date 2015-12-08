@@ -1,0 +1,283 @@
+@media only screen and (max-width:480px)
+{
+	/* For phone */
+	.mobile a span img
+	{
+		position: relative;
+		top: -5px;
+		max-height:  70px;
+	}
+	
+	#logo
+	{
+		display: none;
+	}
+	#copyright
+	{
+		text-align: center;
+		width: 100%;
+		font-size: 0.95em;
+	}
+	#social
+	{
+		text-align: center;
+		width: 100%;
+	}
+	#container
+	{
+		background-image: url(../img/bg_white.jpg);
+		background-repeat: repeat-y;
+		overflow: hidden;
+	}
+	.container
+	{
+		width: 100%;
+		float: left;
+		margin: 0;
+		background: #1565c0;
+		padding: 10px;
+	}
+	
+	.ads
+	{
+		width:100%;
+		float: left;
+	
+		
+	}
+	.phone
+	{
+		display:block;
+	}
+	.tablet
+	{
+		display:none;
+	}
+	.desktop
+	{
+		display:none;
+	}
+	.categories
+	{
+		font-size: 2em;
+		font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+		background: #4799eb;
+		text-shadow: 2px 2px; 
+	}
+	
+	p.container,blockquote
+	{
+		color: white;	
+		text-align: justify;
+		line-height: 1.5em;
+	}
+	
+	blockquote > a
+	{
+		color: #000;
+		text-decoration: underline;
+	}
+	
+	img.container
+	{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:959px)
+{
+	/* For tablet */
+	#logo
+	{
+		width: 100%;
+	}
+	
+	#logo img
+	{
+		max-width: 60%;
+	}
+	#copyright
+	{
+		float: left;
+		width: 75%;
+	}
+	#social
+	{
+		width: 20%;
+		float: right;
+		text-align: right;
+	}
+	#container
+	{
+		
+		background-image: url(../img/bg_white.jpg);
+		background-repeat: repeat-y;
+		overflow: hidden;
+	}
+	
+	.container
+	{
+		width: 76.4%;
+		float: left;
+		margin: 0 1%;
+		background: #1565c0;
+		padding: 10px;
+	}
+	
+	.ads
+	{
+		width: 21%;
+		float: left;
+	}
+	
+	.tablet,.tablet-up
+	{
+		display:block;
+	}
+	.desktop,.tablet-no,.phone
+	{
+		display:none;
+	}
+	.categories
+	{
+		font-size: 2em;
+		font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+		background: #4799eb;
+		text-shadow: 2px 2px; 
+	}
+	p.container,blockquote
+	{
+		color: white;	
+		text-align: justify;
+		line-height: 1.5em;
+	}
+	blockquote > a
+	{
+		color: #000;
+		text-decoration: underline;
+	}
+	img.container
+	{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width:960px)
+{
+
+	/* For desktop */
+	#logo
+	{
+		width: 100%;
+		
+		
+	}
+	#logo img
+	{
+		max-width: 60%;
+	}
+	
+	#copyright
+	{
+		float: left;
+		width: 75%;
+		
+	}
+	#social
+	{
+		width: 20%;
+		float: right;
+		text-align: right;
+	}
+	#container
+	{
+		
+		background-image: url(../img/bg_white.jpg);
+		background-repeat: repeat-y;
+		overflow: hidden;
+	}
+	.container.inner
+	{
+		width: 76.4%;
+		float: left;
+	}
+	.container
+	{
+		width: 52%;
+		float: left;
+		margin: 0 1%;
+		padding: 10px;
+		background: #1565c0;
+		
+	}
+	.ads
+	{
+		width:21.4%;
+		float: left;	
+	}
+	.faux-row
+	{
+		min-width: 21.4%;
+	}
+	.phone
+	{
+		display:none;
+	}
+	.tablet
+	{
+		display:none;
+	}
+	.desktop,.tablet-up
+	{
+		display:block;
+	}
+	.categories
+	{
+		font-size: 2em;
+		font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+		background: #4799eb;
+		text-shadow: 2px 2px; 
+	}
+	p.container,blockquote
+	{
+		color: white;	
+		text-align: justify;
+		line-height: 1.5em;
+	}
+	blockquote > a
+	{
+		color: #000;
+		text-decoration: underline;
+	}
+	img.container
+	{
+		width: 100%;
+	}
+	p
+	{
+		
+	}
+}
+
+/* Nav width */
+
+@media only screen and (min-width:840px)
+{
+	#cssmenu > ul > li
+	{
+		width: 12.2%;	
+	}
+	#cssmenu  ul  li:last-child
+	{
+		width: 13.6%;	
+	}
+}
+@media only screen and (min-width:481px) and (max-width:839px)
+{
+	
+	#cssmenu > ul > li
+	{
+		width: 24.79%;	
+	}
+	
+}
